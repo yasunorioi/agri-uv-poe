@@ -61,5 +61,8 @@ pre-build フック [`patch_dfrobot.py`](patch_dfrobot.py) が `.pio/libdeps` �
 pio run -t upload
 ```
 
+> 🛠 **ビルド環境（Windows / Linux 共用）・Linux 初回セットアップ（udev 等）** →
+> [agri-node-poe-core/docs/cross-platform-build.md](https://github.com/yasunorioi/agri-node-poe-core/blob/main/docs/cross-platform-build.md)
+
 > ATOM Lite は upload_speed=115200 固定（230400 以上は失敗しやすい）。
 > センサー未接続でも起動し、1 秒ごとに再ハンドシェイクして `sensor_ok=false` を維持する。
