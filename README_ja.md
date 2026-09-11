@@ -2,16 +2,16 @@
 
 **日本語** · [🇬🇧 English](README_en.md)
 
-M5Stack ATOM PoE Kit + DFRobot Gravity UV Index Sensor **SEN0636**（240–370nm、
+[M5Stack ATOM PoE Kit](https://docs.m5stack.com/en/atom/atom_poe) + DFRobot Gravity UV Index Sensor [**SEN0636**](https://wiki.dfrobot.com/sen0636/)（240–370nm、
 UV/UVA/UVB/UVC、UV Index 0–11 + Risk Level 0–4 + 生値 mV）→ MQTT + UECS-CCM。
 [agri-node-poe-core](https://github.com/yasunorioi/agri-node-poe-core)
 ライブラリ上に薄く乗っているだけ。値の目視治具は
-[agri-uv-bringup](https://github.com/yasunorioi/agri-uv-bringup)（M5 Basic / AtomS3R）。
+[agri-uv-bringup](https://github.com/yasunorioi/agri-uv-bringup)（[M5 Basic](https://docs.m5stack.com/en/core/basic) / [AtomS3R](https://docs.m5stack.com/en/core/AtomS3R)）。
 
 ## ハードウェア
 
-- **MCU**: M5Stack ATOM Lite (ESP32-PICO-D4)
-- **PoE / Ethernet**: M5Stack ATOM PoE Base (W5500 on SPI)
+- **MCU**: [M5Stack ATOM Lite](https://docs.m5stack.com/en/core/ATOM%20Lite) (ESP32-PICO-D4)
+- **PoE / Ethernet**: [M5Stack ATOM PoE Base](https://docs.m5stack.com/en/atom/Atomic%20PoE%20Base) (W5500 on SPI)
 - **センサー**: DFRobot Gravity UV Index Sensor **SEN0636**
   - モード切替スイッチを **UART 側**にしておくこと（Modbus RTU で読む）
 
